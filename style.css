@@ -32,4 +32,52 @@ body {
   .Navbar div:hover {
     transform: scale(1.2); 
   }
+
+  .home{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .home > div{
+    height: fit-content;
+    
+  }
+  .home > .left{
+    
+    padding: 30px;
+    background-color: #111;
+    border-radius: 15px;
+  }
+  img{
+    justify-content: center;
+    width: 240px;
+    height: 280px;
+    border-radius: 15px;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .name{
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 36px;
+    font-weight: 700px;
+  }
   
+  .work, .location {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgb(217, 217, 217);
+  }
+  .social{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
