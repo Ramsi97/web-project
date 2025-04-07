@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif;
+  }
+  
+  
+  .Navbar {
+    display: flex;
+    justify-content: center;    
+    gap: 40px;                  
+    padding: 5px;
+    background-color: #111;     
+    width: fit-content;          
+    margin: 0 auto;              
+    border-radius: 12px;         
+  }
+  
+  
+  
+  .Navbar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .Navbar div:hover {
+    transform: scale(1.2); 
+  }
+  
