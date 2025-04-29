@@ -195,26 +195,16 @@ body {
     font-size: 1.3rem; 
     color: rgba(145, 75, 241, 1); 
     font-weight: 500;
+    width: 100%;
+    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase; /* Make the text uppercase */
     display: inline-block;
     overflow: hidden; 
-    border-right: 3px solid rgba(145, 75, 241, 1); 
     padding-right: 5px; 
     white-space: nowrap;
-    animation: blink 1s step-end infinite; 
+    
   
-}
-@keyframes blink {
-  0% {
-      border-color: transparent;
-  }
-  50% {
-      border-color: #8a2be2;
-  }
-  100% {
-      border-color: transparent;
-  }
 }
 
 .talk{
@@ -261,4 +251,33 @@ body {
 .colab h2{
   font-size: 3rem;
   margin: 0;
+}
+
+@media (max-width: 1024px) and (min-width: 800px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left:10%;
+    margin-right: 10%;
+  }
+  .left{
+    position: relative;
+  }
+}
+
+@media (max-width: 799px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+  }
+  .left{
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .proj{
+   grid-template-columns: 1fr; 
+  }
 }
