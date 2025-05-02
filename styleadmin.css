@@ -16,12 +16,65 @@ body {
     background-color: #111;
     border-radius: 15px;
   }
+  
   .right {
-    width: 100%;
-    height: 100px;
-    background-color: #222 ;
-    margin-top: 125px;
-  }
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #ddd;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.email-detail {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.email-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.email-header .avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.sender-info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.sender-email {
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.message-time {
+    font-size: 13px;
+    color: #888;
+    margin-top: 4px;
+}
+
+.email-body {
+    line-height: 1.6;
+    color: #ccc;
+    white-space: pre-wrap;
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 8px;
+}
+
 .email-card {
     display: flex;
     background-color: #1a1a1a;
