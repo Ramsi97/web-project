@@ -21,6 +21,7 @@ try{
 
     $pdo = null;
     $stmt = null;
+    header("Location: ../example.html");
     
 }catch(PDOException $e){
     echo $e->getMessage();
