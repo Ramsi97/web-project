@@ -1,4 +1,4 @@
-/* Base Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -126,7 +126,7 @@
     color: #a259ff;
   }
   
-  /* Contact Form */
+  
   .contact-form {
     background-color: #222;
     padding: 30px;
@@ -160,14 +160,14 @@
     border-radius: 10px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s;
+
   }
   
   .contact-form button:hover {
     background-color: #8a40e0;
   }
   
-  /* Work Text Animation Style */
+  
   #work {
     font-size: 1.3rem;
     color: rgba(145, 75, 241, 1);
@@ -177,7 +177,7 @@
     text-transform: uppercase;
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 1024px) {
     .home {
       grid-template-columns: 1fr;
