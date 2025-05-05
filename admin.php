@@ -4,9 +4,9 @@ if($secretcode !== "azbycx1928"){
     http_response_code(403);
     die("Access denied");
 }
-$dsn = "mysql:host=localhost;dbname=contact_form_db";
-$dbusername = "root";
-$dbpwd = "";
+$dsn = "mysql:host=sql302.infinityfree.com;dbname=if0_38899145_contact_form_db";
+$dbusername = "if0_38899145";
+$dbpwd = "Ty4iyn6vg2x";
 
 try {
     $pdo = new PDO($dsn, $dbusername, $dbpwd);
@@ -43,7 +43,7 @@ try {
 <html>
 <head>
     <title>Inbox</title>
-    <link rel="stylesheet" href="./styleadmin.css">
+    <link rel="stylesheet" href="styleadmin.css">
 </head>
 <body>
     <div class = "home">

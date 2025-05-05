@@ -1,8 +1,8 @@
 <?php
 
-$dbh = "mysql:host=localhost;dbname=contact_form_db";
-$dbusername ="root";
-$dbpwd = "";
+$dbh = "mysql:host=sql302.infinityfree.com;dbname=if0_38899145_contact_form_db";
+$dbusername ="if0_38899145";
+$dbpwd = "Ty4iyn6vg2x";
 
 $username = $_POST["uname"];
 $email = $_POST["email"];
